@@ -2,6 +2,7 @@
   "name": "website2020",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://website2020.andresjpulido.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -11,11 +12,16 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build && echo 'website2022.andresjpulido.com' > ./build/CNAME",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
