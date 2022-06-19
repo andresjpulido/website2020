@@ -1,0 +1,32 @@
+.project {
+	padding: 3rem;
+	display: flex;
+	align-items: center;
+}
+
+.projects-light {
+	background-color: var(--primary-bg-color);
+	color: var(--second-bg-color);
+}
+
+.projects-dark {
+    background-color: var(--second-bg-color);
+	color: var(--primary-bg-color);
+}
+
+.project-img img {
+	width: "500";
+	height: "600";
+}
+
+.project-text {
+	margin: 1rem;
+	width: 100%;
+}
+
+.project-button {
+	border: 0.1rem var(--primary-bg-color) solid;
+	top: 3rem;
+	padding: 1rem;
+	position: relative;
+}

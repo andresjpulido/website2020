@@ -1,0 +1,41 @@
+.nav-button {
+	margin-right: 1.5rem;
+	border-radius: 50%;
+	height: 1.5rem;
+	position: relative;
+	width: 3rem;
+	z-index: 0;
+}
+
+.nav-button-dark { 
+	background-color: black; 
+}
+
+.nav-button-light { 
+	background-color: gray; 
+}
+
+.nav-button:hover{
+	cursor: pointer;
+}
+  
+.nav-button-circle { 
+	border-radius: 50%;
+	height: 1.6rem;
+	position: absolute;
+	top: -.1rem; 
+	width: 1.6rem;
+	z-index: 1;
+}
+
+.nav-button-circle-dark {
+	background-color: white;
+	border: .1rem white solid;
+	left: 0rem;
+}
+
+.nav-button-circle-light {
+	background-color: white;
+	border: .1rem gray solid;
+ 	left: 1.3rem; 
+}

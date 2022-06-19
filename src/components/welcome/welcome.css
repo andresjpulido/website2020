@@ -1,0 +1,52 @@
+.welcome {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;	
+	height: 100vh;
+}
+
+.welcome-light {
+	background-color: var(--primary-bg-color);
+	color: var(--second-bg-color);
+}
+
+.welcome-dark {
+	background-color: var(--second-bg-color);
+	color: var(--primary-bg-color);
+}
+
+.welcome-light a {
+	color: var(--secundary-color);
+}
+
+.welcome-dark a {
+	color: var(--primary-bg-color);
+}
+
+.welcome-arrow {
+	font-family: "light";
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 95%;
+	transform: translate(-50%, -95%);
+}
+
+.welcome-arrow-dark {
+	color: var(--secundary-color);
+}
+
+.welcome-arrow-light {
+	color: var(--secundary-color);
+}
+
+.welcome-arrow-dark svg {
+	color: var(--secundary-color);
+	font-weight: bold;
+}
+
+.welcome-arrow-ligh svg {
+	color: var(--secundary-color);
+	font-weight: bold;
+}

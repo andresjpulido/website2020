@@ -1,0 +1,21 @@
+:root {
+	--primary-color: #3579e9;
+	--secundary-color: #999;
+
+	--primary-bg-color: #fff;
+	--primary-bg-color-alpha: rgba(255, 255, 255, 0.2);
+	--second-bg-color: #333;
+
+	--tertiary-bg-color: #c9c7ca;
+	--primary: #3c6e71;
+	--secundary: #2f3b49;
+	--tertiary: #7b91a8;
+
+	--border-color: #ced4da;
+
+	--success: green;
+	--alert: #b94032;
+	--light: #f8f9fa;
+	--superlight: #ffffff;
+	--dark: #28394d;
+}

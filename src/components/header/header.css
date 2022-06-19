@@ -1,0 +1,15 @@
+.header {
+	display: flex;
+	align-content: space-between;
+	padding-top: 3rem;
+}
+
+.header-dark {
+	background-color: var(--second-bg-color);
+	color: var(--primary-bg-color);
+}
+
+.header-light {
+	background-color: var(--primary-bg-color);
+	color: var(--second-bg-color);
+}

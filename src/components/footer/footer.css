@@ -1,0 +1,47 @@
+.footer {
+	padding-top: 6rem;
+	padding-bottom: 3rem;
+}
+
+.footer-dark {
+	background-color: var(--second-bg-color);
+	color: var(--primary-bg-color-alpha);
+}
+
+.footer-light {
+	background-color: var(--primary-bg-color);
+	color: var(--secundary-color);
+}
+
+.footer p {
+	text-align: center;
+	font-family: "light";
+	font-size: 1.1rem;
+	line-height: 2.1rem;
+}
+
+.footer-networks {
+	display: flex;
+	padding-top: 1rem;	 
+	justify-content: center;
+}
+
+.footer-network  {
+	margin: 1rem;
+	text-align: center;
+	 
+}
+
+.footer-network svg {
+	font-size: 2rem;
+}
+
+.footer-network-dark svg {
+	color: var(--primary-bg-color-alpha);
+}
+
+.footer-network-light svg {
+	color: var(--secundary-color);
+}
+
+
