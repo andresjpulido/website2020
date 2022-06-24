@@ -8,15 +8,12 @@ export default function Welcome() {
 
 	return (
 		<section className={"welcome welcome-" + style}>
-			<h1>
-				Hi, I'm <span className="home-name">Andres Pulido</span>
-			</h1>
-			<h2>software developer</h2>
-			<div>
-				See my CV{" "}
-				<a href="./data/cv.pdf" target="_blank">
-					here.
-				</a>
+			<div className="welcome-title">
+				<h1>
+					Hi, I'm  Andres Pulido 
+				</h1>
+				<span className="welcome-position">software developer</span>
+				 
 			</div>
 			<div className="welcome-arrow">
 				<a href="#projects">

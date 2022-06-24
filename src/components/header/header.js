@@ -8,10 +8,12 @@ export default function Header() {
 	const { style, setStyle } = React.useContext(AppContext);
 
 	return (
-		<header className={"header header-" + style}>
-			<Nav />
-			<div>
-				<NavButton />
+		<header className="header-wrapper">
+			<div className={"header header-" + style}>
+				<Nav />
+				<div className="i">
+					<NavButton />
+				</div>
 			</div>
 		</header>
 	);

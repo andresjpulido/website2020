@@ -11,8 +11,13 @@ export default function NavButton() {
 		 
 		if (style==="light") {
 			setStyle("dark");
+			//document.body.style.backgroundColor = "blue";
+			document.body.classList.remove("light");
+			document.body.classList.add("dark");
 		} else {
 			setStyle("light");
+			document.body.classList.remove("dark");
+			document.body.classList.add("light");
 		} 
 	};
 

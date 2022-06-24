@@ -5,29 +5,42 @@ html {
 	scroll-behavior: smooth;
 }
 
+body {
+	background-color: var(--second-bg-color);
+	color: var(--primary-bg-color);
+}
+
 h1 {
 	font-family: "ebold";
 	font-size: 3rem;
+	text-align: center;
+	font-size: clamp(2.25rem, 2vw + 1.5rem, 3.25rem);
 }
 
 h2 {
-	font-family: "bold";
-	font-size: 2.53rem;
+	font-family: "bold"; 
+	font-size: clamp(1.5rem, 2vw + 1rem, 2.53rem);
+	line-height: 5rem;
 }
 
 h3 {
 	font-family: "bold";
-	font-size: 2.53rem;
+	font-size: clamp(1.5rem, 2vw + 1rem, 2.53rem);
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
 
 h4 {
 	font-family: "light";
-	font-size: 2.53rem;
+	font-size: clamp(1.2rem, 2vw + 1rem, 2.53rem);
+	line-height: 6rem;
 }
 
 h5 {
 	font-family: "bold";
-	font-size: 2.53rem;
+	font-size: clamp(1rem, 2vw + .5rem, 1.5rem);
+	line-height: 5rem;
+	margin-top: 1rem;
 }
 
 a {
@@ -36,20 +49,31 @@ a {
 
 p {
 	font-family: "light";
-	font-size: 1.2rem;
+	font-size: clamp(1rem, 2vw + 0.5rem, 1.2rem);
 }
 
-.app-dark {
-	background-color: black;
+p.abstract {
+	font-family: "regular";
+	letter-spacing: 0.1em;
 }
 
-.app-light {
-	background-color: white;
+.app {
+	position: relative;
 }
 
+.dark {
+	background-color: var(--second-bg-color);
+	color: var(--primary-bg-color);
+}
 
+.light {
+	background-color: var(--primary-bg-color);
+	color: var(--second-bg-color);
+}
 
-
-
-
-
+section {
+	padding-bottom: clamp(1rem, 2vw + 0.5rem, 1.2rem);
+	padding-top: clamp(1rem, 2vw + 1.5rem, 3.5rem);
+	padding-left: clamp(1rem, 2vw + 0.5rem, 1.2rem);
+	padding-right: clamp(1rem, 2vw + 0.5rem, 1.2rem);
+}

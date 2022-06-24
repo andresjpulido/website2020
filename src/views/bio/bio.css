@@ -1,13 +1,14 @@
 .bio {
-	height: 100vh;
+	 
+	padding-top: 6rem;
 }
 
 .bio-dark {
 	background-color: var(--second-bg-color);
-	color: var(--primary-bg-color-alpha);
+	color: var(--primary-bg-color);
 }
 
 .bio-light {
 	background-color: var(--primary-bg-color);
-	color: var(--secundary-color);
+	color: var(--second-bg-color);
 }
