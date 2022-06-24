@@ -42,4 +42,6 @@
 	color: var(--secundary-color);
 }
 
-
+.footer p{
+	font-size: clamp(.5rem, 2vw + .3rem, 1.1rem);
+}
