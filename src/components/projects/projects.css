@@ -1,8 +1,7 @@
 .project {
 	display: flex;
 	flex-wrap: wrap;
-	flex-direction: row;
-	margin-bottom: 6rem;
+	flex-direction: row; 
     justify-content: center;
     align-items: center;
 }
@@ -57,7 +56,7 @@
 }
 
 .project-tech svg{
-font-size: 3rem;
+font-size: 2.5rem;
 margin-right: 3rem;
 color: var(--primary-color);
 }
