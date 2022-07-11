@@ -42,14 +42,21 @@
 	align-items: center;
 }
 
-.project-button {
+.project-button{
+	font-family: "light";
 	border: 0.1rem var(--primary-bg-color) solid;
+	border-radius: .5rem;
 	padding: 1rem;
 	margin-right: 1rem;
 	width: fit-content;
 }
 
+.project-link{
+	font-family: "light";
+}
+
 .project-tech {
+	align-items: center;
 	display: flex;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
@@ -64,13 +71,16 @@
 .project-tech-list {
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
 }
 
 .project-tech-item {
 	margin-right: 1rem;
-	font-family: "black";
+	font-family: "light";
 	font-size: 1rem;
+	color: var(--primary-color);
 }
+
 @media (max-width: 800px) {
 	.project-column {
 		flex: 100%;

@@ -3,13 +3,11 @@ import "./navbutton.css";
 import AppContext from "../../AppContext";
 
 export default function NavButton() {
-	  
 	//dark light
 	const { style, setStyle } = React.useContext(AppContext);
 
 	const changeStyle = () => {
-		 
-		if (style==="light") {
+		if (style === "light") {
 			setStyle("dark");
 			//document.body.style.backgroundColor = "blue";
 			document.body.classList.remove("light");
@@ -18,11 +16,14 @@ export default function NavButton() {
 			setStyle("light");
 			document.body.classList.remove("dark");
 			document.body.classList.add("light");
-		} 
+		}
 	};
 
 	return (
 		<div className={"nav-button nav-button-" + style} onClick={changeStyle}>
+			<div className={"nav-button-left nav-button-" + style} ></div>
+			<div className={"nav-button-center nav-button-" + style} ></div>
+			<div className={"nav-button-right nav-button-" + style} ></div>
 			<div className={"nav-button-circle nav-button-circle-" + style}></div>
 		</div>
 	);

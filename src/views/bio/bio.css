@@ -1,5 +1,4 @@
 .bio {
-	 
 	padding-top: 6rem;
 }
 
@@ -11,4 +10,20 @@
 .bio-light {
 	background-color: var(--primary-bg-color);
 	color: var(--second-bg-color);
+}
+
+.bio-subtitle {
+	margin-top: 1rem;
+	border-bottom: 0.2rem var(--primary-color) solid;
+	margin-bottom: 2rem;
+	padding-bottom: 1rem;
+	padding-top: 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bio-subtitle svg {
+	color: var(--primary-color);
+	font-size: 3rem;
 }

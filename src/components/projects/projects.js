@@ -52,7 +52,7 @@ export default function Projects(props) {
 										rel="noreferrer"
 										title="go demo"
 									>
-										Online demo
+										<div className="project-link">Online demo</div>
 									</a>
 								</span>
 							)}
