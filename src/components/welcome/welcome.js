@@ -17,7 +17,8 @@ export default function Welcome() {
 			</div>
 			<div className="welcome-arrow">
 				<a href="#projects">
-					<div>See my portfolio</div>
+					<div className="btn-shine">See my portfolio</div>
+					<br/><br/>
 					<div>
 						<FontAwesomeIcon icon={["fas", "angle-down"]} />
 					</div>
